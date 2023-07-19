@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <title>PROJETO FINAL</title>
+    <!--Aqui inicia javascript-->
+    <script type="text/javascript">
+
+        let nome = prompt("Gostaria de uma experiência personalizada e acesso a descontos exclusivos? Caso SIM por favor insira seu primeiro nome:")
+
+    </script>
 </head>
 
 <body>
@@ -14,7 +20,8 @@
             <a href="#cursos">CURSOS</a>
             <a href="#dicas">DICAS</a>
             <a href="#aluno">ALUNO</a>
-            <a href="login.html">LOGIN</a>
+            <a href="index.html">
+                << LOGOUT </a>
         </nav>
         <img clas="imagens-site" id="logo-topo" src="img/logo-tec-site.png" alt="Logo TECTREINAMENTOS">
     </header>
@@ -27,6 +34,14 @@
                 <img class="imagens-corpo" src="img/boneco.png" alt="imagem topo">
             </div>
             <div>
+                <br>
+                <div class="personalizacao">
+                    <script type="text/javascript">
+                        document.write("Seja bem vindo(a) " + nome)
+                    </script>
+                </div>
+                <br>
+
                 <br><br>
                 <h2 id="titulo-topo">TRANSFORME A SUA CARREIRA.<br> APRENDA COM ESPECIALISTAS E<br> TORNE-SE
                     DESENVOLVEDOR(A) WEB.</h2>
@@ -40,9 +55,9 @@
                 <p><strong>Aprenda com especialistas como desenvolver sites e aplicações web e transforme os seus
                         estudos em carreira, conheça nossos treinamentos pensados para inciantes e estudantes e
                         desenvolva projetos reais.</strong></p>
-                        <br><br>
-                        <a href="#" class="botao-acao">SAIBA MAIS</a>
-                        <br><br>
+                <br><br>
+                <a href="#" class="botao-acao">SAIBA MAIS</a>
+                <br><br>
             </div>
 
 
@@ -59,7 +74,14 @@
     <!--Aqui começa o conteúdo principal-->
     <br>
     <section class="container">
-        <h1>APRENDA DESENVOLVIMENTO DE SITES E APLICAÇÕES WEB</h1>
+        <br>
+        <div class="personalizacao">
+            <script type="text/javascript">
+                document.write("" + nome + " veja abaixo um vídeo de um projeto interessante no qual você pode se interessar")
+            </script>
+        </div>
+        <br>
+        <h1>EXEMPLO DE PROJETO QUE VOCÊ PODERÁ FAZER DURANTE SEUS ESTUDOS</h1>
         <br>
 
         <!--Aqui vem o vídeo de apresentação do produto ou serviço-->
@@ -81,7 +103,16 @@
         <a href="#" id="dicas"></a>
         <br>
         <section class="conteudo">
-            <h2>QUER SE TORNAR UM(A) DESENVOLVEDOR(A) DE SUCESSO? VAMOS AO PASSO A PASSO</h2>
+
+            <br>
+            <div class="personalizacao">
+                <script type="text/javascript">
+                    document.write("" + nome + " VOCÊ GOSTARIA DE")
+                </script>
+            </div>
+            <br>
+
+            <h2>SE TORNAR UM(A) DESENVOLVEDOR(A) DE SUCESSO? VAMOS AO PASSO A PASSO:</h2>
             <br>
             <p>Vamos listar aqui tudo o que você precisa para ter sucesso na área de desenvolvimento web</p>
             <br>
@@ -127,8 +158,12 @@
                     <span class="tecnologias">
                         <h2 class="titulo-corpo">HTML5 E CSS3</h2>
                         <br>
-                        <p>HTML5 e CSS3 são tecnologias fundamentais para o desenvolvimento de páginas da web modernas.<br> Eles são usados em conjunto para criar e estilizar o conteúdo visual e estrutural de um site.<br>
-                            Juntos, HTML5 e CSS3 permitem que desenvolvedores criem páginas da web modernas, responsivas e visualmente atraentes.<br> Eles são complementares e se tornaram os padrões essenciais para a criação de sites e aplicações web.<br>
+                        <p>HTML5 e CSS3 são tecnologias fundamentais para o desenvolvimento de páginas da web
+                            modernas.<br> Eles são usados em conjunto para criar e estilizar o conteúdo visual e
+                            estrutural de um site.<br>
+                            Juntos, HTML5 e CSS3 permitem que desenvolvedores criem páginas da web modernas, responsivas
+                            e visualmente atraentes.<br> Eles são complementares e se tornaram os padrões essenciais
+                            para a criação de sites e aplicações web.<br>
                         </p>
                     </span>
                     <br>
@@ -148,12 +183,26 @@
                     <span class="tecnologias">
                         <h2 class="titulo-corpo">LÓGICA DE PROGRAMAÇÃO</h2>
                         <br>
-                        <p>Você já ouviu falar em lógica de programação? É uma habilidade essencial para quem deseja entrar no mundo do desenvolvimento web!<br> A lógica de programação é a maneira de resolver problemas passo a passo, de forma organizada, para criar sites e aplicativos incríveis.<br>Com ela, você aprenderá a estruturar ideias, criar interações e tornar seus projetos funcionais e atraentes para os usuários.<br><br>
+                        <p>Você já ouviu falar em lógica de programação? É uma habilidade essencial para quem deseja
+                            entrar no mundo do desenvolvimento web!<br> A lógica de programação é a maneira de resolver
+                            problemas passo a passo, de forma organizada, para criar sites e aplicativos
+                            incríveis.<br>Com ela, você aprenderá a estruturar ideias, criar interações e tornar seus
+                            projetos funcionais e atraentes para os usuários.<br><br>
 
-                            Não se preocupe se você é iniciante! Nosso curso de Lógica de Programação para Desenvolvimento Web foi criado especialmente para quem está começando.<br> Nele, você aprenderá os conceitos fundamentais de programação de uma maneira fácil e prática.<br><br> Abordaremos desde o básico até as estruturas de controle e lógicas condicionais, tudo em uma linguagem simples e acessível.<br><br>
-                            
-                            Se você está pronto para dar o primeiro passo na carreira de desenvolvimento web, junte-se a nós e adquira habilidades que impulsionarão sua jornada na tecnologia.<br>Não perca mais tempo, inscreva-se agora em nosso curso e comece a construir um futuro promissor como desenvolvedor web!
-                            Descubra o mundo fascinante do desenvolvimento web! Aprenda Lógica de Programação de forma simples e divertida, mesmo se você for um iniciante.<br><br> Inscreva-se agora em nosso curso e comece a criar seus próprios sites e aplicativos impressionantes. Vagas limitadas, garanta a sua!<br>
+                            Não se preocupe se você é iniciante! Nosso curso de Lógica de Programação para
+                            Desenvolvimento Web foi criado especialmente para quem está começando.<br> Nele, você
+                            aprenderá os conceitos fundamentais de programação de uma maneira fácil e prática.<br><br>
+                            Abordaremos desde o básico até as estruturas de controle e lógicas condicionais, tudo em uma
+                            linguagem simples e acessível.<br><br>
+
+                            Se você está pronto para dar o primeiro passo na carreira de desenvolvimento web, junte-se a
+                            nós e adquira habilidades que impulsionarão sua jornada na tecnologia.<br>Não perca mais
+                            tempo, inscreva-se agora em nosso curso e comece a construir um futuro promissor como
+                            desenvolvedor web!
+                            Descubra o mundo fascinante do desenvolvimento web! Aprenda Lógica de Programação de forma
+                            simples e divertida, mesmo se você for um iniciante.<br><br> Inscreva-se agora em nosso
+                            curso e comece a criar seus próprios sites e aplicativos impressionantes. Vagas limitadas,
+                            garanta a sua!<br>
                         </p>
                     </span>
                     <br>
@@ -173,7 +222,11 @@
                     <span class="tecnologias">
                         <h2 class="titulo-corpo">PROGRAMAÇÃO WEB - FULLSTACK</h2>
                         <br>
-                        <p>O desenvolvimento Full Stack é como ser um 'mestre de obras' do mundo digital.<br>É a habilidade de criar sites ou aplicativos completos, trabalhando tanto na parte que os usuários veem (front-end) quanto na parte que faz tudo funcionar nos bastidores (back-end).<br>Esses profissionais têm uma visão completa do projeto e são capazes de criar soluções bonitas e funcionais.
+                        <p>O desenvolvimento Full Stack é como ser um 'mestre de obras' do mundo digital.<br>É a
+                            habilidade de criar sites ou aplicativos completos, trabalhando tanto na parte que os
+                            usuários veem (front-end) quanto na parte que faz tudo funcionar nos bastidores
+                            (back-end).<br>Esses profissionais têm uma visão completa do projeto e são capazes de criar
+                            soluções bonitas e funcionais.
                         </p>
                     </span>
                     <br>
@@ -205,7 +258,9 @@
                 <div>
                     <figure>
                         <img class="imagens-site" src="img/javascript.png" alt="javascript">
-                        <figcaption><a href="https://www.udemy.com/course/logica-de-programacao-e-php/?referralCode=70B5B18D54A96EA6DCD1" target="_blank">Curso de JavaScript</a></figcaption>
+                        <figcaption><a
+                                href="https://www.udemy.com/course/logica-de-programacao-e-php/?referralCode=70B5B18D54A96EA6DCD1"
+                                target="_blank">Curso de JavaScript</a></figcaption>
                     </figure>
                 </div>
                 <div>
@@ -223,13 +278,17 @@
                 <div>
                     <figure>
                         <img class="imagens-site" src="img/htmlyt.png" alt="PHP">
-                        <figcaption><a href="https://www.youtube.com/watch?v=J-QblKnOqbI&list=PLOPt_yd2VLWEzAcf514Ki-uZfyrUFa38D&index=1&t=1s" target="_blank">Curso GRATUITO de HTML e CSS</a></figcaption>
+                        <figcaption><a
+                                href="https://www.youtube.com/watch?v=J-QblKnOqbI&list=PLOPt_yd2VLWEzAcf514Ki-uZfyrUFa38D&index=1&t=1s"
+                                target="_blank">Curso GRATUITO de HTML e CSS</a></figcaption>
                     </figure>
                 </div>
                 <div>
                     <figure>
                         <img class="imagens-site" src="img/javascriptyt.png" alt="PHP">
-                        <figcaption><a href="https://www.youtube.com/watch?v=Y06b5ZaypZw&list=PLOPt_yd2VLWFf3osZ5EQm2_7QbG4uTdaK&index=2" target="_blank">Curso GRATUITO de JavaScript</a></figcaption>
+                        <figcaption><a
+                                href="https://www.youtube.com/watch?v=Y06b5ZaypZw&list=PLOPt_yd2VLWFf3osZ5EQm2_7QbG4uTdaK&index=2"
+                                target="_blank">Curso GRATUITO de JavaScript</a></figcaption>
                     </figure>
                 </div>
             </div>
@@ -245,7 +304,7 @@
                 <img class="avaliacoes" src="img/avaliacao2.png" alt="avaliação de curso">
                 <img class="avaliacoes" src="img/avaliacao3.png" alt="avaliação de curso">
                 <img class="avaliacoes" src="img/avaliacao4.png" alt="avaliação de curso">
-                
+
             </marquee><!--Faz as imagens ter animação horizontal-->
         </span>
 
@@ -256,13 +315,40 @@
                 <br>
                 <img class="imagens-site" id="foto-aluno" src="img/minha foto.jpg" alt="Felipe Santos">
             </figure>
-            <h3>Felipe Santos</h3>
+            <h2>Aluno</h2>
             <br>
-            <p>Estudante de Análise e Desenvolvimento de Sistemas e Front-End.</p>
-            <p>Acredita na força do conhecimento compartilhado na internet, gerando mais oportunidades para todos.</p>
-            <p>Com objetivo de se tornar um grande programador e ter vasto conhecimento das diversas linguagens da
-                belissima área que é a Programação.</p>
             <br>
+            <div class="personalizacao">
+                <script type="text/javascript">
+                    document.write("Olá " + nome + ", é uma grande satisfação tê-lo(a) conosco!")
+                </script>
+            </div>
+            <br>
+            <p>
+                
+                <strong>Sobre</strong>
+                <br>
+                Gostaria de me apresentar:<BR>
+                Meu nome é <strong>Felipe e sou Estudante na área de Tecnologia</strong> e também apaixonado por jogos.<br>
+
+                Estou cursando Análise e Desenvolvimento de Sistemas visando me tornar um Desenvolvedor Web.<br>
+                Estudando atualmente FRONT-END.
+
+                <br>
+                <br>
+                <h4>CLIQUE NO BOTÃO E ACESSE UMA PROMOÇÃO SOB MEDIDA SÓ PARA VOCÊ!</h4>
+            </p>
+            <br>
+            <figure>
+                <img src="img/seta.png" alt="Promoção exclusiva">
+            </figure>
+            <br>
+                
+            <br>
+            <a href="#" class="botao-acao"> VER OFERTA </a>
+            <br> 
+            <br>
+
         </div>
         <br>
 
@@ -282,7 +368,8 @@
         <h4>Redes Sociais</h4>
         <a href="https://github.com/FelipeSlaik" target="_blank"><img src="img/github.png" alt="github"></a>
         <a href="#"><img src="img/instagram.png" alt="github"></a>
-        <a href="https://www.linkedin.com/in/felipe-slaik/" target="_blank"><img src="img/linkedin.png" alt="github"></a>
+        <a href="https://www.linkedin.com/in/felipe-slaik/" target="_blank"><img src="img/linkedin.png"
+                alt="github"></a>
 
         <br>
         <br>
